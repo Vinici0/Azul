@@ -1,0 +1,67 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box ;
+    /*Para que todo tenga la misma cantidad de anchura*/
+}
+
+body {
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+   /* background: #ccc;*/
+    margin:auto;/*Para cetrar todo*/
+    overflow: hidden;
+}
+
+
+/* ------ ------ HEADER ------- -----*/
+header {
+    background: url('../img/006\ Columnas.png') #44709d;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;/*Alto maximo*/
+
+}
+
+header .menu{
+    margin: 40px 0;
+}
+
+header .menu a {
+    margin: 0 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration:none ;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+
+header .menu a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+header .contenedor-texto{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 190px 0;
+}
+
+header .contenedor-texto .texto {
+    border: 2px solid rgba(255, 255, 255, 0.5); /*Borde cuadrado*/
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+
+
+
