@@ -61,6 +61,42 @@ header .contenedor-texto .texto {
     text-align: center;
     padding: 20px 60px;
 }
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2{
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+header .contenedor-texto .texto .nombre{
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+
+}
+
+header .contenedor-texto .texto .profecion{
+    font-size: 25px;
+    line-height: 25px;
+
+}
+
+/* ------ ------ MAIN ------- -----*/
+.main .contenedor{
+    overflow: visible;
+}
+
+.main .acerca-de {
+    text-align: center;
+}
+
+.main .acerca-de .foto{
+    margin-top: -60px;
+
+}
+
+
+
 
 
 
